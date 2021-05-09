@@ -127,16 +127,16 @@ namespace daily_circular_desktop_application_system.Views
             circularMenuBar.Size = new Size(circularPanelWidth, 25);
             // circularMenuBar.BackColor = System.Drawing.Color.LightGreen;
 
-            Button viewButton = new Button();
+            /*Button viewButton = new Button();
             viewButton.Text = "View";
-            circularMenuBar.Controls.Add(viewButton);
+            circularMenuBar.Controls.Add(viewButton);*/
 
             if (flg == 1)
             {
                 // update button
                 Button updateButton = new Button();
                 updateButton.Text = "Update";
-                updateButton.Parent = viewButton;
+                /*updateButton.Parent = viewButton;*/
                 updateButton.Dock = DockStyle.Right;
                 updateButton.BackColor = System.Drawing.Color.Green;
                 updateButton.ForeColor = System.Drawing.Color.White;
